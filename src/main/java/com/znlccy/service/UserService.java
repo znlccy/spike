@@ -1,5 +1,7 @@
 package com.znlccy.service;
 
+import com.znlccy.domain.UserDomain;
+
 /**
  * author: admin
  * date: 2018/12/28-17:18
@@ -8,4 +10,5 @@ package com.znlccy.service;
  */
 public interface UserService {
 
+    UserDomain getUserById(Integer id);
 }
